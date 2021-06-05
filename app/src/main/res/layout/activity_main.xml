@@ -38,25 +38,33 @@
             <com.google.android.material.imageview.ShapeableImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
                 app:shapeAppearanceOverlay="@style/circle"
-                android:src="@drawable/wifi" />
+                android:src="@drawable/wifi"
+                android:background="#D82682"/>
 
             <com.google.android.material.imageview.ShapeableImageView
                 app:shapeAppearanceOverlay="@style/circle"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="#D82682"
                 android:src="@drawable/wirless" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 app:shapeAppearanceOverlay="@style/circle"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="#D82682"
                 android:src="@drawable/rfid" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 app:shapeAppearanceOverlay="@style/circle"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_margin="20dp"
+                android:background="#D82682"
                 android:src="@drawable/router" />
         </LinearLayout>
 
@@ -72,9 +80,52 @@
         android:layout_margin="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/scrollable" />
-    <ImageView
+     <ImageView
+        android:id="@+id/image1"
+         android:layout_width="match_parent"
+         android:layout_height="250dp"
+         style="@style/image1"
+        android:src="@drawable/paymentcar"
+       />
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="360,000$ \n3bd 2ba 1,832 ft \n3904 Kristencreek,Dallas"
+         app:layout_constraintStart_toStartOf="parent"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="@id/image1" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        style="@style/image1"
+        android:src="@drawable/paymentcar"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="360,000$ \n3bd 2ba 1,832 ft \n3904 Kristencreek,Dallas"
+        android:padding="10dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/image2" />
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        style="@style/image1"
+        android:src="@drawable/paymentcar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="360,000$ \n3bd 2ba 1,832 ft \n3904 Kristencreek,Dallas"
+        android:padding="10dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/image3" />
+
 
 </LinearLayout>
 
