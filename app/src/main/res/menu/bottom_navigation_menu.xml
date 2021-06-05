@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/page_1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Feed"/>
+    <item android:id="@+id/page_2"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"/>
+    <item android:id="@+id/page_3"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        android:title="My homes"/>
+    <item android:id="@+id/page_4"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="Buy"/>
+    <item android:id="@+id/page_5"
+        android:icon="@drawable/ic_baseline_vertical_split_24"
+        android:title="Sell"/>
 
 </menu>
