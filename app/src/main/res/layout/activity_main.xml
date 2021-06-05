@@ -133,4 +133,43 @@
 
 
 
+
 </ScrollView>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:menu="@menu/bottom_navigation_menu" />
+
+
+</LinearLayout>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/page_1"
+    android:enabled="true"
+    android:icon="@drawable/ic_favorite"
+    android:title="@string/favorites"/>
+<item
+    android:id="@+id/page_2"
+    android:enabled="true"
+    android:icon="@drawable/ic_music"
+    android:title="@string/music"/>
+<item
+    android:id="@+id/page_3"
+    android:enabled="true"
+    android:icon="@drawable/ic_places"
+    android:title="@string/places"/>
+<item
+    android:id="@+id/page_4"
+    android:enabled="true"
+    android:icon="@drawable/ic_news"
+    android:title="@string/news"/>
+</menu>
